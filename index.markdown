@@ -9,7 +9,7 @@ layout: home
       <p class="kicker">Family &amp; Life</p>
       <h1>More Than<br>a Game</h1>
       <p>What golf can teach our sons about character, patience, and a well-lived life.</p>
-      <a class="outline-cta" href="{{ '/2026/09/21/how-to-do-supplemental-homeschooling/' | relative_url }}">Read the Essay</a>
+      <a class="outline-cta" href="{{ '/2026/09/21/more-than-a-game/' | relative_url }}">Read the Essay</a>
     </div>
   </div>
 
@@ -69,23 +69,23 @@ layout: home
   <div class="link-column">
     <header>
       <h2>Recent Articles</h2>
-      <a href="{{ '/2026/09/21/why-do-you-help-the-wicked/' | relative_url }}">View All</a>
+      <a href="{{ '/2026/09/21/protest-or-production-1961-black-baptist-schism/' | relative_url }}">View All</a>
     </header>
-    <a class="mini-story" href="{{ '/2026/09/21/lemuel-haynes-sermons/' | relative_url }}">
+    <a class="mini-story" href="{{ '/2026/09/21/protest-or-production-1961-black-baptist-schism/' | relative_url }}">
       <img src="{{ '/assets/images/editorial/open-book.jpg' | relative_url }}" alt="An open old book">
-      <span>What Lemuel Haynes Still Says to Us<small>5 min read</small></span>
+      <span>Protest or Production<small>7 min read</small></span>
     </a>
-    <a class="mini-story" href="{{ '/2026/09/21/how-to-do-supplemental-homeschooling/' | relative_url }}">
+    <a class="mini-story" href="{{ '/2026/09/21/11-simple-things-christian-men-change-now/' | relative_url }}">
       <img src="{{ '/assets/images/editorial/mother-daughter-reading.jpg' | relative_url }}" alt="Family reading">
-      <span>Discipline Is a Kindness<small>6 min read</small></span>
+      <span>11 Simple Things Christian Men Can Start Doing<small>6 min read</small></span>
     </a>
-    <a class="mini-story" href="{{ '/2026/09/21/city-tables/' | relative_url }}">
+    <a class="mini-story" href="{{ '/2026/09/21/joseph-h-jackson-what-then-must-we-do-now/' | relative_url }}">
       <img src="{{ '/assets/images/editorial/city-neighbors.jpg' | relative_url }}" alt="City neighbors">
-      <span>The Beauty of Christian Friendship<small>4 min read</small></span>
+      <span>What, Then, Must We Do Now?<small>7 min read</small></span>
     </a>
-    <a class="mini-story" href="{{ '/2026/09/21/city-tables/' | relative_url }}">
+    <a class="mini-story" href="{{ '/2026/09/21/why-do-you-help-the-wicked/' | relative_url }}">
       <img src="{{ '/assets/images/editorial/full-table.jpg' | relative_url }}" alt="A full table">
-      <span>On Work, Dignity, and a Diligent Hand<small>7 min read</small></span>
+      <span>Why Do You Help the Wicked?<small>8 min read</small></span>
     </a>
   </div>
 

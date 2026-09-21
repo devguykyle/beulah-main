@@ -5,7 +5,7 @@ description: Beulah and Main should feel like the supplied generated mockup: a p
 
 voice:
   editorial: "Christian, literary, grounded, hospitable, and culturally observant."
-  posture: "Good people. Deeper roots. A fuller life."
+  posture: "Good Stories. Better Company. A Little Closer to Home."
   avoid:
     - "Heavy bold typography"
     - "Rustic heritage costume"
