@@ -5,8 +5,8 @@ description: >-
   A publication for discovered American memory, household formation,
   public theology, city tables, old books, and the bright ordinary places
   where families learn to read the world again.
-baseurl: ""
-url: ""
+baseurl: "/beulah-main"
+url: "https://devguykyle.github.io"
 twitter_username:
 github_username:
 
