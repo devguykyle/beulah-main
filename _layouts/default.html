@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.summary | default: site.description | strip_html | normalize_whitespace }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="brand-grid">
+        <p class="brand-manifesto">Christian<br>Faith.<br>Letters.<br>History.<br>Life Together.</p>
+        <div class="brand-center">
+          <a class="masthead" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">Beulah <span>&amp;</span> Main</a>
+          <p class="tagline">Good people. Deeper roots. A fuller life.</p>
+        </div>
+        <div class="header-actions">
+          <p class="verse">"They shall still bring forth fruit in old age..."<br><span>Psalm 92:14</span></p>
+          <a class="search-link" href="{{ '/' | relative_url }}" aria-label="Search">&#8981;</a>
+          <a class="subscribe-button" href="#join">Subscribe</a>
+        </div>
+      </div>
+      <nav class="section-nav" aria-label="Sections">
+        <a class="active" href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/2026/09/21/city-tables/' | relative_url }}">Mid-Morning Draughts</a>
+        <a href="{{ '/2026/09/21/why-do-you-help-the-wicked/' | relative_url }}">Articles</a>
+        <a href="{{ '/departments/old-books/' | relative_url }}">People</a>
+        <a href="{{ '/departments/public-square/' | relative_url }}">Faith &amp; Theology</a>
+        <a href="{{ '/departments/household/' | relative_url }}">Family &amp; Life</a>
+        <a href="{{ '/departments/old-books/' | relative_url }}">Arts &amp; Culture</a>
+        <a href="{{ '/2026/09/21/city-tables/' | relative_url }}">Places</a>
+        <span></span>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </header>
+
+    <main id="content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Beulah &amp; Main</strong>
+        <p>&copy; 2026 Beulah &amp; Main. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="{{ '/about/' | relative_url }}">Contact</a>
+        <a href="{{ '/about/' | relative_url }}">Submit</a>
+        <a href="{{ '/about/' | relative_url }}">Privacy</a>
+        <a href="{{ '/about/' | relative_url }}">Terms</a>
+      </nav>
+      <p class="footer-line">For the Glory of God and the Good of Our Neighbors.</p>
+    </footer>
+  </body>
+</html>

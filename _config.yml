@@ -1,0 +1,26 @@
+# Site settings
+title: Beulah and Main
+email: editor@beulahandmain.test
+description: >-
+  A publication for discovered American memory, household formation,
+  public theology, city tables, old books, and the bright ordinary places
+  where families learn to read the world again.
+baseurl: ""
+url: ""
+twitter_username:
+github_username:
+
+tagline: Discovery new and old.
+edition_label: First Light Issue
+future: true
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+exclude:
+  - DESIGN.md
+  - vendor/
+  - .bundle/
+  - .jekyll-cache/

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="article-shell">
+  <header class="article-header">
+    <p class="kicker">{{ page.department | default: page.category | default: "Dispatch" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="article-summary">{{ page.summary }}</p>{% endif %}
+    <div class="article-meta">
+      {% if page.author %}<span>By {{ page.author }}</span>{% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.source %}<span>{{ page.source }}</span>{% endif %}
+    </div>
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>
