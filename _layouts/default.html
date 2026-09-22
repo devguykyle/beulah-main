@@ -12,28 +12,25 @@
     <a class="skip-link" href="#content">Skip to content</a>
     <header class="site-header">
       <div class="brand-grid">
-        <p class="brand-manifesto">Christian<br>Faith.<br>Letters.<br>History.<br>Life Together.</p>
+        <p class="brand-manifesto">{{ site.time | date: "%A" }}<br>{{ site.time | date: "%B %-d" }}<br>{{ site.time | date: "%Y" }}</p>
         <div class="brand-center">
           <a class="masthead" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">Beulah <span>&amp;</span> Main</a>
           <p class="tagline">Good Stories. Better Company. A Little Closer to Home.</p>
         </div>
         <div class="header-actions">
-          <p class="verse">"They shall still bring forth fruit in old age..."<br><span>Psalm 92:14</span></p>
           <a class="search-link" href="{{ '/' | relative_url }}" aria-label="Search">&#8981;</a>
           <a class="subscribe-button" href="#join">Subscribe</a>
         </div>
       </div>
       <nav class="section-nav" aria-label="Sections">
         <a class="active" href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/2026/09/21/city-tables/' | relative_url }}">Mid-Morning Draughts</a>
-        <a href="{{ '/2026/09/21/why-do-you-help-the-wicked/' | relative_url }}">Articles</a>
-        <a href="{{ '/departments/old-books/' | relative_url }}">People</a>
-        <a href="{{ '/departments/public-square/' | relative_url }}">Faith &amp; Theology</a>
-        <a href="{{ '/departments/household/' | relative_url }}">Family &amp; Life</a>
-        <a href="{{ '/departments/old-books/' | relative_url }}">Arts &amp; Culture</a>
-        <a href="{{ '/2026/09/21/city-tables/' | relative_url }}">Places</a>
-        <span></span>
-        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/mid-morning-draughts/' | relative_url }}">Mid-Morning Draughts</a>
+        <a href="{{ '/arts-and-culture/' | relative_url }}">Arts and Culture</a>
+        <a href="{{ '/stories/' | relative_url }}">Stories</a>
+        <a href="{{ '/places/' | relative_url }}">Places</a>
+        <a href="{{ '/the-family/' | relative_url }}">The Family</a>
+        <a href="{{ '/sports/' | relative_url }}">Sports</a>
+        <a href="{{ '/soul-care/' | relative_url }}">Soul Care</a>
       </nav>
     </header>
 

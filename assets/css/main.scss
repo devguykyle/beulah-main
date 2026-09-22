@@ -92,21 +92,10 @@ img { display: block; width: 100%; height: auto; }
 }
 
 .header-actions {
-  display: grid;
-  grid-template-columns: 1fr auto auto;
+  display: flex;
   gap: 18px;
-  align-items: end;
-  justify-items: end;
-}
-
-.verse {
-  grid-column: 1 / -1;
-  margin: 0;
-  color: #4c4b45;
-  font-size: 12px;
-  font-style: italic;
-  line-height: 1.35;
-  text-align: right;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .search-link {
