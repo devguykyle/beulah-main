@@ -71,17 +71,17 @@ layout: home
       <h2>Recent Articles</h2>
       <a href="{{ '/2026/09/21/protest-or-production-1961-black-baptist-schism/' | relative_url }}">View All</a>
     </header>
-    <a class="mini-story" href="{{ '/2026/09/21/protest-or-production-1961-black-baptist-schism/' | relative_url }}">
-      <img src="{{ '/assets/images/editorial/open-book.jpg' | relative_url }}" alt="An open old book">
-      <span>Protest or Production<small>7 min read</small></span>
+    <a class="mini-story" href="{{ '/2026/09/22/the-ghosts-of-conjugal-affection/' | relative_url }}">
+      <img src="{{ '/assets/images/stories/conjugal-affection.png' | relative_url }}" alt="The Ghosts of Conjugal Affection article image">
+      <span>The Ghosts of Conjugal Affection<small>4 min read</small></span>
     </a>
-    <a class="mini-story" href="{{ '/2026/09/21/11-simple-things-christian-men-change-now/' | relative_url }}">
-      <img src="{{ '/assets/images/editorial/mother-daughter-reading.jpg' | relative_url }}" alt="Family reading">
-      <span>11 Simple Things Christian Men Can Start Doing<small>6 min read</small></span>
+    <a class="mini-story" href="{{ '/2026/09/22/advantages-of-choosing-a-wife-by-proxy/' | relative_url }}">
+      <img src="{{ '/assets/images/stories/wife-by-proxy.png' | relative_url }}" alt="Advantages of Choosing a Wife by Proxy article image">
+      <span>Advantages of Choosing a Wife by Proxy<small>3 min read</small></span>
     </a>
-    <a class="mini-story" href="{{ '/2026/09/21/joseph-h-jackson-what-then-must-we-do-now/' | relative_url }}">
-      <img src="{{ '/assets/images/editorial/city-neighbors.jpg' | relative_url }}" alt="City neighbors">
-      <span>What, Then, Must We Do Now?<small>7 min read</small></span>
+    <a class="mini-story" href="{{ '/2026/09/22/an-accomplished-rogue/' | relative_url }}">
+      <img src="{{ '/assets/images/stories/accomplished-rogue.png' | relative_url }}" alt="An Accomplished Rogue article image">
+      <span>An Accomplished Rogue<small>4 min read</small></span>
     </a>
     <a class="mini-story" href="{{ '/2026/09/21/why-do-you-help-the-wicked/' | relative_url }}">
       <img src="{{ '/assets/images/editorial/full-table.jpg' | relative_url }}" alt="A full table">

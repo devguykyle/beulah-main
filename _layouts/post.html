@@ -12,6 +12,11 @@ layout: default
       {% if page.source %}<span>{{ page.source }}</span>{% endif %}
     </div>
   </header>
+  {% if page.image %}
+    <figure class="article-image">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+    </figure>
+  {% endif %}
   <div class="prose">
     {{ content }}
   </div>
